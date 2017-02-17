@@ -1,0 +1,118 @@
+/* good looking stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+@import url('https://fonts.googleapis.com/css?family=Slackey');
+
+body {
+    background-image: url("images/background.jpg");
+}
+
+.header {
+    background-image: url("images/matrix.gif");;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1em;
+}
+
+#name {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-family: 'Bungee Shade';
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: orange;}
+    to {color: purple;}
+}
+
+h2 {
+    color: blue; 
+    text-align: left;
+}
+
+h3 {
+    color: navy;
+    margin-bottom: 0.25em;
+}
+
+.picture img {
+    height: 15em;
+    float: left;
+    border: 4pt solid white;
+    margin-right: 1em;
+    margin-left: 1em;
+    animation: spin 1s linear 1;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.content {
+    font-size: 15pt;
+    font-family: 'Fontdiner Swanky';
+    color: yellow;
+    text-align: center;
+    margin-left: 1em;
+    font-style: bold;
+}
+
+
+#aboutMe {
+    padding-bottom: 7em;
+}
+
+.time {
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+}
+
+#sidebar {
+    display:flex;
+    flex-direction: column;
+}
+
+.side-header {
+    color: green;
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.side-bar {
+    background-image: url("images/sideBar.jpg");
+    height: 100%;
+    float: right;
+    width: 16em;
+    margin-left: 2em;
+}
+
+p { 
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    text-align: left;
+    color: white;
+    font-family: 'Slackey';
+}
+
+.side-bar ul {
+    color: white;
+}
