@@ -23,6 +23,11 @@ Code is licensed under the Apache 2.0 license.
 
 External Source:
 
+Gutenberg Sources used:
+A Christmas Carol: http://www.gutenberg.org/files/46/46-h/46-h.htm
+Peter Pan: http://www.gutenberg.org/ebooks/16
+The Jungle Book: http://www.gutenberg.org/ebooks/236
+
 Guetenberg background image found at: 
 http://www.photos-public-domain.com/2011/02/10/light-colored-parchment-paper-texture/ (February 9, 2017)
 

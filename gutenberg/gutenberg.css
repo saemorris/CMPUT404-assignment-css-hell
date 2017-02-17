@@ -14,6 +14,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+i {
+    font-family: 'Dancing Script';
+    font-size: 150%;
+}
+
 pre {
     text-align: center;
     font-family: 'Quintessential';
