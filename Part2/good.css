@@ -1,0 +1,91 @@
+/* good looking stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Asul');
+
+body {
+    background-color: #D9D9D9;
+}
+
+.header {
+    background-color: #4484CE;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1em;
+}
+
+#name {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-family: 'Asul', sans-serif;
+}
+
+h2 {
+    color: black; 
+    text-align: left;
+}
+
+h3 {
+    color: #6B7A8F;
+    margin-bottom: 0.25em;
+}
+
+.picture img {
+    height: 15em;
+    float: left;
+    border: 4pt solid white;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.content {
+    font-size: 13pt;
+    color: black;
+    text-align: left;
+    margin-left: 1em;
+}
+
+#aboutMe {
+    padding-bottom: 7em;
+}
+
+.time {
+    font-size: 11pt;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+}
+
+#sidebar {
+    display:flex;
+    flex-direction: column;
+}
+
+.side-header {
+    color: white;
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.side-bar {
+    background-color: #4484CE;
+    height: 100%;
+    float: right;
+    width: 13em;
+    margin-left: 2em;
+}
+
+p { 
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    text-align: left;
+    color: white;
+}
+
+.side-bar ul {
+    color: white;
+}
