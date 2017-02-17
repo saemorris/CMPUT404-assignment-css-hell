@@ -19,9 +19,19 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
+Content associated with Sarah's homepage and the Gutenberg css files 
+is copytright of Sarah Morris (C) 2013 under the CC-BY-SA
+4.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2013 Abram Hindle visibile in the text.
+
 Code is licensed under the Apache 2.0 license.
 
-External Source:
+Part 1, Gutenberg HTML changes:
+===============================
+In HTML files I deleted the style elements and added a link to my own css file.
+
+External Sources:
+================
 
 Gutenberg Sources used:
 A Christmas Carol: http://www.gutenberg.org/files/46/46-h/46-h.htm
@@ -48,7 +58,3 @@ bad css header gif: https://mapzen.com/blog/engineering-series/ (February 16, 20
 StackOverflow questions/answers consulted:
 	Selecting elements that don't have a certain class: Answered by boltclock (http://stackoverflow.com/users/106224/boltclock) on StackOverflow: http://stackoverflow.com/questions/9110300/can-i-write-a-css-selector-selecting-elements-not-having-a-certain-class 
 	Flashing name: Answered by SuperSam (http://stackoverflow.com/users/3273707/suppersam) on StackOverflow: http://stackoverflow.com/questions/27437229/how-to-make-flashing-text-in-css
-
-Part 1, Gutenberg HTML changes:
-In HTML files I deleted the style elements and added a link to my own css file.
-
